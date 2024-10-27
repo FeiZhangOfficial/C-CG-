@@ -18,7 +18,7 @@ def solve_ccg_model(f, a, c, h, I, J,K,d_tilde,cap_gamma = 0.5, tolerance=1e-4, 
     LB = -GRB.INFINITY
     UB = GRB.INFINITY
     tolerance = 1e-4
-    iteration = 0
+    iteration = 1
     if master.status == GRB.OPTIMAL:
         LB = max(LB, master.ObjVal)
     z_star = z.X
