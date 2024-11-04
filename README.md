@@ -2,7 +2,7 @@ This is a implementation of column-and-constraint generation (C&CG) method solvi
 
 reference:Zeng, B., & Zhao, L. (2013). Solving two-stage robust optimization problems using a column-and-constraint generation method. Operations Research Letters, 41(5), 457–461. https://doi.org/10.1016/j.orl.2013.05.003
 
-Average performance over 5 instance of C&CG algorithms on 10x10 instances with different Gamma.
+Average performance over 5 instance of C&CG algorithms on 15x15 instances with different Gamma.
 | Metric                  | 0.1   | 0.2   | 0.3   | 0.4   | 0.5   | 0.6   | 0.7   | 0.8   | 0.9   | 1.0   |
 |-------------------------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
 | Benders Avg Runtime (sec)   | 3.0319 | 3.0821 | 3.8706 | 4.7504 | 2.6728 | 3.9569 | 3.4722 | 3.3910 | 3.0107 | 3.0599 |
